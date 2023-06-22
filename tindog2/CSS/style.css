@@ -1,0 +1,169 @@
+/* body{
+    background: red;
+} */
+#title{
+    background-color: palevioletred;
+}
+h1{
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.6;
+    color: #fff;
+
+}
+.container-fluid{
+    padding: 3% 15%;
+
+}
+.navbar-brand{
+    font-family: 'ubuntu';
+    /* color: #fff; */
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 10px;
+}
+
+.download-button{
+    margin: 5% 2% 5% 0;
+}
+
+.nav-link{
+    font-weight: lighter;
+}
+.title-image{
+    width: 60%;
+    transform: rotate(27deg);
+}
+/* #features i{ */
+    /* color: red; */
+/* } */
+#features{
+    padding: 7% 15%;
+}
+/* .feature-box{
+    
+} */
+h3{
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+    font-weight: 900 ;
+    /* text-align: center; */
+
+}
+p{
+    color: #8f8f8f;
+}
+.para{
+    /* text-align: center; */
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+}
+.icon{
+    color: #ff4c68;
+    margin-bottom: 5%;
+}
+.icon:hover{
+    color: #ef8172;
+    /* margin-bottom: 1rem; */
+
+}
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+     
+}
+h2{
+    text-align: center;
+    font-size: 3rem;
+    line-height: 1.5;
+    /* font-family: 'Montserrat'; */
+    font-weight: bold;
+}
+.test-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;   
+}
+/* presss section */
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding: 3%;
+}
+.p-logo{
+    padding: 10%;
+    margin: 20px 20px 50px;
+    
+}
+/* testimonial section */
+#testimonials{
+    padding: 7% 10%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+h2{
+    font-family: 'montserrat';
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.testimonial_image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+
+}
+/* press */
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+/* pricing */
+
+.price{
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.btn-1{
+    border-radius: 10px;
+}
+.cta{
+    background-color: #ef8172;
+    align-items: center;
+    text-align: center;
+    padding: 5rem;
+}
+.text{
+    color: #fff;
+    text-align: center;
+    font-size: 3rem;
+}
+#footer{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+@media(max-width:1028px){
+    .title-image{
+        transform: rotate(0);
+    }    
+    #title{
+        text-align: center;
+    }
+}
